@@ -1,4 +1,4 @@
-# trail_data
+# WashingtonStateTrailData
 An open data repository for recreational trails in Washington state. 
 
 Creator Information:
