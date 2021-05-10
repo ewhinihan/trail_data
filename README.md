@@ -13,8 +13,7 @@ Creator Information:
       
 Data location: Github repository https://github.com/ewhinihan/trail_data
 
-This data curation protocol....
-
+The data included here are raw data files and cleaned data files for deposit into the WA Trail Data Repository designed as a class project. This repository also links to a GitBook protocol which serves as a repository and curation manual.
 
 # Datasets
 The raw datasets are
