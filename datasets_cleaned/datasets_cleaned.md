@@ -14,6 +14,20 @@ Outlined below are how each dataset was cleaned.
     Column headers capitalized for consistency and expanded upon when attribute definition could be inferred (ex: GRADE_PERC renamed to GRADE_PERCENTAGE)
     "NA" added to cells with blank values or "-"
     "12:00:00 AM +0000" removed from DATE_TIME column and GIS_EDIT_DATE column and date formated to ISO 8601 date format standard
+    Width column removed because it did not indicate measurement unit, which is a requirement for this attribute.
+    
+    File: WA_NationalForestSystemTrails_2021_cleaned.csv
+    ADMIN_ORG column removed as it had the same values as MANAGING_ORG column
+    EMP column removed as it had duplicate values to SEGMENT_LENGTH
+    ATTRIBUTESUBSET column removed as it did not add value to the dataset and was an administrative value
+    All blank cells replaced with "NA" and "N/A" replaced with "NA" for consistency
+    Formatted columns GIS_MILES, TRAIL_CN, SEGMENT_LENGTH to have consistent number of decimal places
+    Deleted WATER_MOTORIZED column as it only contained null values
+    Deleted NONMOTOR_WATERCRAFT_ACCPT_DISC column as it only contained null values
+    Deleted NONMOTOR_WATERCRAFT_MANAGED column as it only contained null values
+    Deleted MOTOR_WATERCRAFT_ACCPT_DISC column as it only contained null values
+    Deleted MOTOR_WATERCRAFT_MANAGED column as it only contained null values
+    Renamed values in TRAIL_SURFACE for consistency (ex: replaced AC-ASPHALT with ASPHALT)
+    Removed special characters, including "%" and replaced with decimals
     
     
-    File: 
