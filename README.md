@@ -21,4 +21,4 @@ The data included here are raw data files and cleaned data files for deposit int
 The raw datasets are located in the folder datasets_raw and the cleaned datasets that follow the principles of tidy are located in the folder datasets_cleaned. In addition, the cleaned datasets each have a corresponding data dictionary located in the data_dictionaries folder.
 
 # Naming
-The file naming conventions will be added shortly.
+Please refer to our file naming guide in Gitbook: https://app.gitbook.com/@data-curation-ii-protocol-projec/s/trail-data/file-naming-guide
