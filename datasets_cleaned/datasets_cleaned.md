@@ -32,6 +32,10 @@ Outlined below are details of how each dataset was cleaned.
     
     File: WA_RCOTrails_2017_cleaned.csv
     Replaced blank spaces with "NA" to represent null values.
+    Deleted created_user and last_edited_user columns as they contained a user name that was not relevant to the data
+    Normalized the created_date and last_edited_date columns to standardize date to ISO 8601 format (removed timestamp)
+    Normalized TR_LENGTH column to make decimal places consistent
+    
     
     
     
