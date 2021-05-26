@@ -1,5 +1,5 @@
 Datasets were cleaned using tidy data principles. Because of the nature of geospatial data, there were additional cleaning measures that were taken in some cases.
-Outlined below are how each dataset was cleaned.
+Outlined below are details of how each dataset was cleaned.
 
     File: Yakima_WA_TrailLines_2020_cleaned.csv
     Id column removed
@@ -29,5 +29,9 @@ Outlined below are how each dataset was cleaned.
     Deleted MOTOR_WATERCRAFT_MANAGED column as it only contained null values
     Renamed values in TRAIL_SURFACE for consistency (ex: replaced AC-ASPHALT with ASPHALT)
     Removed special characters, including "%" and replaced with decimals
+    
+    File: WA_RCOTrails_2017_cleaned.csv
+    Replaced blank spaces with "NA" to represent null values.
+    
     
     
