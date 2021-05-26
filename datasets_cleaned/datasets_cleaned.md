@@ -22,17 +22,19 @@ Outlined below are details of how each dataset was cleaned.
     ATTRIBUTESUBSET column removed as it did not add value to the dataset and was an administrative value
     All blank cells replaced with "NA" and "N/A" replaced with "NA" for consistency
     Formatted columns GIS_MILES, TRAIL_CN, SEGMENT_LENGTH to have consistent number of decimal places
-    Deleted WATER_MOTORIZED column as it only contained null values
-    Deleted NONMOTOR_WATERCRAFT_ACCPT_DISC column as it only contained null values
-    Deleted NONMOTOR_WATERCRAFT_MANAGED column as it only contained null values
-    Deleted MOTOR_WATERCRAFT_ACCPT_DISC column as it only contained null values
-    Deleted MOTOR_WATERCRAFT_MANAGED column as it only contained null values
+    Removed WATER_MOTORIZED column as it only contained null values
+    Removed NONMOTOR_WATERCRAFT_ACCPT_DISC column as it only contained null values
+    Removed NONMOTOR_WATERCRAFT_MANAGED column as it only contained null values
+    Removed MOTOR_WATERCRAFT_ACCPT_DISC column as it only contained null values
+    Removed MOTOR_WATERCRAFT_MANAGED column as it only contained null values
     Renamed values in TRAIL_SURFACE for consistency (ex: replaced AC-ASPHALT with ASPHALT)
     Removed special characters, including "%" and replaced with decimals
     
     File: WA_RCOTrails_2017_cleaned.csv
-    Replaced blank spaces with "NA" to represent null values.
-    Deleted created_user and last_edited_user columns as they contained a user name that was not relevant to the data
+    Replaced blank spaces with "NA" to represent null values
+    Removed created_user and last_edited_user columns as they contained a user name that was not relevant to the data
+    Removed NOT_SPECIFIED column as it only had null values
+    Removed REVIEW_FLAG column as it only contained "yes" value which corresponds to REVIEW_COMMENTS column
     Normalized the created_date and last_edited_date columns to standardize date to ISO 8601 format (removed timestamp)
     Normalized TR_LENGTH column to make decimal places consistent
     
