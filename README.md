@@ -14,6 +14,7 @@ Creator Information:
 Data location: Github repository https://github.com/ewhinihan/trail_data
 
 Project background on repository in Gitbook: https://app.gitbook.com/@data-curation-ii-protocol-projec/s/trail-data/
+      
       Gitbook includes details on user community, collection policy, data transformations and quality criteria, metadata application profile, file naming guide, 
       license information and sources used for this project.
 
