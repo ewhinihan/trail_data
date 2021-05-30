@@ -1,5 +1,5 @@
 # WashingtonStateTrailData
-An open data repository for recreational trails in Washington state. 
+An open data repository for trails in Washington state. 
 
 Creator Information:
 
@@ -13,7 +13,9 @@ Creator Information:
       
 Data location: Github repository https://github.com/ewhinihan/trail_data
 
-Background information on repository in Gitbook: https://app.gitbook.com/@data-curation-ii-protocol-projec/s/trail-data/
+Project background on repository in Gitbook: https://app.gitbook.com/@data-curation-ii-protocol-projec/s/trail-data/
+      Gitbook includes details on user community, collection policy, data transformations and quality criteria, metadata application profile, file naming guide, 
+      license information and sources used for this project.
 
 The data included here are raw data files and cleaned data files for deposit into the WA Trail Data Repository designed as a class project. This repository also links to a GitBook protocol which serves as a repository and curation manual. The license used for this repository is the CCO-1.0 License.
 
