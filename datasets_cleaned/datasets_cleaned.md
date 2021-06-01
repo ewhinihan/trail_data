@@ -11,8 +11,8 @@ dataset had various ways of indicating location of trails.
     Activity tags broken out into 4 columns for bike, hike, horse, ski
 
     Files: Seattle_WA_Trails_2021_cleaned.txt | Seattle_WA_Trails_2021_cleaned.csv
-    File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data interpretation as well as maintain dates 
-    in ISO 8601 format
+    File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data interpretation as well as 
+    maintain dates in ISO 8601 format
     Shape_LENG, SHAPE_LE_1, GIS_LENGTH columns removed as the shape length was already represented in THE_GEOM field
     Column headers capitalized for consistency and expanded upon when attribute definition could be inferred (ex: GRADE_PERC renamed to GRADE_PERCENTAGE)
     "NA" added to cells with blank values or "-"
@@ -20,8 +20,8 @@ dataset had various ways of indicating location of trails.
     Width column removed because it did not indicate measurement unit, which is a requirement for this attribute.
     
     File: WA_NationalForestSystemTrails_2021_cleaned.txt | WA_NationalForestSystemTrails_2021_cleaned.csv
-    File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data interpretation as well as maintain dates 
-    in ISO 8601 format
+    File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data interpretation as well as 
+    maintain dates in ISO 8601 format
     ADMIN_ORG column removed as it had the same values as MANAGING_ORG column
     EMP column removed as it had duplicate values to SEGMENT_LENGTH
     ATTRIBUTESUBSET column removed as it did not add value to the dataset and was an administrative value
@@ -36,8 +36,8 @@ dataset had various ways of indicating location of trails.
     Removed special characters, including "%" and replaced with decimals
     
     File: WA_RCOTrails_2017_cleaned.txt | WA_RCOTrails_2017_cleaned.csv
-    File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data interpretation as well as maintain dates 
-    in ISO 8601 format
+    File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data interpretation as well as 
+    maintain dates in ISO 8601 format
     Replaced blank spaces with "NA" to represent null values
     Removed created_user and last_edited_user columns as they contained a user name that was not relevant to the data
     Removed NOT_SPECIFIED column as it only had null values
