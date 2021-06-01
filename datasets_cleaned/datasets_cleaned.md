@@ -1,5 +1,7 @@
 Datasets were cleaned using tidy data principles. Because of the nature of geospatial data, there were additional cleaning measures that were taken in some cases.
-Outlined below are details of how each dataset was cleaned.
+Outlined below are details of how each dataset was normalized. All cleaned datasets are in open, non-proprietary formats to facilitate reuse by potential users
+of the Repository. Limitation of these datasets include varying attributes for each dataset, inconsistent measurement units across similar attributes, and each
+dataset had various ways of indicating location of trails.
 
     File: Yakima_WA_TrailLines_2020_cleaned.csv
     Id column removed
