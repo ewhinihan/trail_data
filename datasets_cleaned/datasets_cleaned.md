@@ -1,6 +1,6 @@
 Datasets were cleaned using tidy data principles. Because of the nature of geospatial data, there were additional cleaning measures that were taken in some cases.
 Outlined below are details of how each dataset was normalized. All cleaned datasets are in open, non-proprietary formats to facilitate reuse by potential users
-of the Repository. Limitation of these datasets include varying attributes for each dataset, inconsistent measurement units across similar attributes, and each
+of the Repository. The limitations of these datasets include varying attributes for each dataset, inconsistent measurement units across similar attributes, and each
 dataset had various ways of indicating location of trails.
 
     File: Yakima_WA_TrailLines_2020_cleaned.csv
@@ -44,7 +44,4 @@ dataset had various ways of indicating location of trails.
     Removed REVIEW_FLAG column as it only contained "yes" value which corresponds to REVIEW_COMMENTS column
     Normalized the created_date and last_edited_date columns to standardize date to ISO 8601 format (removed timestamp)
     Normalized TR_LENGTH column to make decimal places consistent
-    
-    
-    
     
