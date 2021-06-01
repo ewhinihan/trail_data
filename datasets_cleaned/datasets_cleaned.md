@@ -14,7 +14,8 @@ dataset had various ways of indicating location of trails.
     File saved as tab separated file in addition to .csv format to preserve special characters that were necessary for data 
     interpretation as well as maintain dates in ISO 8601 format
     Shape_LENG, SHAPE_LE_1, GIS_LENGTH columns removed as the shape length was already represented in THE_GEOM field
-    Column headers capitalized for consistency and expanded upon when attribute definition could be inferred (ex: GRADE_PERC renamed to GRADE_PERCENTAGE)
+    Column headers capitalized for consistency and expanded upon when attribute definition could be inferred 
+    (ex: GRADE_PERC renamed to GRADE_PERCENTAGE)
     "NA" added to cells with blank values or "-"
     "12:00:00 AM +0000" removed from DATE_TIME column and GIS_EDIT_DATE column and date formated to ISO 8601 date format standard
     Width column removed because it did not indicate measurement unit, which is a requirement for this attribute.
